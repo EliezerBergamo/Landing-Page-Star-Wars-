@@ -1,0 +1,49 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(../../images/backgroundLP.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+}
+
+.container1 {
+    background-color: $background-color;
+    width: 450px;
+    height: auto;
+}
+
+.topLogo {
+    width: 250px;
+}
+
+.paragraph {
+    margin: 8px 0px;
+}
+
+.container3 {
+    margin-left: -25px;
+}
+
+.container4 {
+    margin-left: -25px;
+}
+
+.btnsend {
+    color: $button-color;
+    border: 1px solid $button-color;
+
+    &:hover {
+        background-color: $button-color;
+        color: #ffffff;
+    }
+}
+
+.footer {
+    margin-top: 70px;
+    margin-bottom: -30px;
+}
